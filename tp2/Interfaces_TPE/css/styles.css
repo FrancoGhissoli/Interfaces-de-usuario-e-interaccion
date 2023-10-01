@@ -1,0 +1,121 @@
+
+html{
+    background-color: #000;
+}
+
+
+/* COLORES */
+.primario{
+    color: 0D0303;
+}
+
+
+/* TEXTOS */
+
+.h1{
+    font-family: "FSP DEMO - TT Nrms Pr xtrBlck Regular", "FSP DEMO - TT Nrms Pr xtrBlck", 'FSP DEMO - TT Nrms Pr xtrBlck Extranegra' ;
+    font-size: 40px;
+}
+
+.h2{
+    font-family: "Avenir Black";
+    font-size: 22px;
+}
+
+.h4{
+    font-family: "Avenir";
+    font-size: 22px;
+}
+
+
+.texto-chico{
+    font-family: "Avenir Book";
+    color: #282725;
+    font-size: 14px;
+}
+
+                                                                                                                        /* ASSETS */
+
+/* CARD */
+
+.gameContainer{
+    margin: 0;
+    border-radius: 0;
+    min-width: 300px;
+    width: 300px;
+}
+
+.card{
+    align-items: flex-start;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0 16px 16px 0 rgba(0,0,0,.08);
+    overflow: visible;
+    transition: .2s ease;
+}
+
+.card-Img{
+    height: 170px;
+    width: 300px;
+    overflow: hidden;
+}
+
+.card .data{
+    padding: 15px 16px 13px;
+    width: 100%;
+    background: #fff;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.card .data-category-container {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 80%;
+}
+
+.card .data-category {
+    max-width: calc(100% - 40px);
+}
+
+.card .data .playBtn {
+    z-index: 2;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    top: 12px;
+    right: 10px;
+}
+
+.playBtn{
+    background-color: #080008;
+    height: 56px;
+    width: 56px;
+    justify-content: center;
+    align-items: center;
+}
+
+.playBtn .icon.links {
+    background-image: url(../flecha.svg);
+    background-repeat: no-repeat;
+    width: 35px;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.card .titulo{
+    color: #282725;
+    font-size: 22px;
+    white-space: nowrap;
+    font-weight: 800;
+    width: 80%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    height: 1.5em;
+    line-height: 1.5em;
+}
+
+
