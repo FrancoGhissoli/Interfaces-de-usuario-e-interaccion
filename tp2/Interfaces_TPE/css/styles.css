@@ -10,7 +10,7 @@
     --backround-color: #704242;
 
     --color-primario: #0D0303;
-    --color-arcoiris:linear-gradient(#CB487B 25%, #D1B507 25%,#5FAA5A 25%,#3193C7 25%);
+    --color-arcoiris:linear-gradient(to right, #CB487B, #D1B507 ,#5FAA5A ,#3193C7 );
     
     --fuente-h1:"FSP DEMO - TT Nrms Pr xtrBlck Regular", "FSP DEMO - TT Nrms Pr xtrBlck", 'FSP DEMO - TT Nrms Pr xtrBlck Extranegra';
     --tamanio-h1:40px;
@@ -58,7 +58,7 @@ html{
     align-items: center;
     width: 460px;
     height: 40px;
-    background-color: var(--color-arcoiris);
+    background: white;
     border-radius: 8px;
     }
 #barraBusqueda span{
