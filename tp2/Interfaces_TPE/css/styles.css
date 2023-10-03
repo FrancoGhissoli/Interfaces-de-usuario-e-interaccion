@@ -1,40 +1,55 @@
+@font-face {
+    font-family:'Avenir Black';
+    src: url(../fonts/Avenir-Black.ttf);
+    font-family: 'Avenir Book';
+    src: url(../fonts/Avenir-Book.ttf);
+    font-family: 'Avenir Regular';
+    src: url(../fonts/Avenir-Regular.ttf);
+}
+:root{
+    --backround-color: #000;
+
+    --color-primario: #0D0303;
+    --color-arcoiris:linear-gradient(#CB487B 25%, #D1B507 25%,#5FAA5A 25%,#3193C7 25%);
+    
+    --fuente-h1:"FSP DEMO - TT Nrms Pr xtrBlck Regular", "FSP DEMO - TT Nrms Pr xtrBlck", 'FSP DEMO - TT Nrms Pr xtrBlck Extranegra';
+    --tamanio-h1:40px;
+    --fuente-h2:'Avenir Black';
+    --tamanio-h2: 20px;
+    --fuente-h4:'Avenir Regular';
+    --tamanio-h4:22px;
+    --fuente-texto-chico:'Avenir Book';
+    --tamanio-texto-chico:14px;
+}
 
 html{
-    background-color: #000;
+    background-color: var(--backround-color);
 }
-
-
-/* COLORES */
-.primario{
-    color: 0D0303;
-}
-
 
 /* TEXTOS */
 
 .h1{
-    font-family: "FSP DEMO - TT Nrms Pr xtrBlck Regular", "FSP DEMO - TT Nrms Pr xtrBlck", 'FSP DEMO - TT Nrms Pr xtrBlck Extranegra' ;
-    font-size: 40px;
+    font-family: var(--fuente-h1);
+    font-size: var(--tamanio-h1);
 }
 
 .h2{
-    font-family: "Avenir Black";
-    font-size: 22px;
+    font-family:var(--fuente-h2);
+    font-size: var(--tamanio-h2);
 }
 
 .h4{
-    font-family: "Avenir";
-    font-size: 22px;
+    font-family: var(--fuente-h4);
+    font-size: var(--tamanio-h4);
 }
 
 
 .texto-chico{
-    font-family: "Avenir Book";
+    font-family:var(--fuente-texto-chico);
     color: #282725;
-    font-size: 14px;
+    font-size: var(--tamanio-texto-chico);
 }
-
-                                                                                                                        /* ASSETS */
+                                                                                               /* ASSETS */
 
 /* CARD */
 
