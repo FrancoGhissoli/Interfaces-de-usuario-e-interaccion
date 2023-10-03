@@ -61,8 +61,8 @@ html{
     background-color: var(--color-arcoiris);
     border-radius: 8px;
     }
-    #barraBusqueda span{
-        opacity: 50%;
+#barraBusqueda span{
+    opacity: 50%;
 }
       
         
